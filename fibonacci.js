@@ -21,6 +21,6 @@ function * fib (n, current = 0, next = 1) {
   yield * fib(n - 1, next, current + next)
 }
 
-let a = [...fib(4)]
-a
+let fibSeries = [...fib(4)]
+fibSeries
 // [0, 1, 1, 2]

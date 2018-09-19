@@ -15,3 +15,15 @@ f(n) how many units of n required to process the data
 - O(C^n) -> exponential time
 - O(n!) -> factorial time
 - O(infinity) -> infinite time
+
+## Selection sort
+
+- worst case: O(n^2)
+- best case: omega(n^2)
+
+### Pseudocode
+
+- Idea: Find the smallest unsorted element and add it to the sorted list.
+- Repeat until no unsorted elements remain.
+  1. Find the smallest.
+  2. Swap it to the first index
